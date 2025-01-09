@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from flask import request, redirect, url_for
-from mysql import connector
+from mysql import connector 
 
 app = Flask(__name__)
 
